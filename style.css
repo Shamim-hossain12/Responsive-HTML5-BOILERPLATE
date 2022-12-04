@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+}
+
+.top-header {
+    margin: auto;
+}
+
+.sub-top-header {
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-menu div {
+    height: 3px;
+    width: 20px;
+    background-color: red;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.top-header-left {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.top-header-left p i {
+    color: rgb(255, 208, 0);
+    padding: 5px;
+}
+
+.top-header-right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header-right ul li a {
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+
+.bottom-header {
+    margin: auto;
+}
+
+.sub-bottom-header {
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.sub-bottom-header h2 {
+    text-align: center;
+    width: 40%;
+    color: aliceblue;
+    margin: auto;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.sub-bottom-header p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    color: rgba(240, 248, 255, 0.849);
+    font-size: 15px;
+}
+
+.sub-bottom-header h4 {
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 174, 0);
+    width: 20%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.sub-bottom-header h6 {
+    color: rgba(240, 248, 255, 0.541);
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.sub-main {
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service-top {
+    width: 50%;
+    margin: auto;
+}
+
+.service-top p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.service-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.ser-icon-one i {
+    font-size: 35px;
+    color: rgb(26, 26, 1);
+}
+
+.ser-icon-one-one i {
+    font-size: 35px;
+    color: rgb(206, 116, 14);
+}
+
+.ser-icon-one-two i {
+    font-size: 35px;
+    color: rgb(228, 231, 9);
+}
+
+.ser-icon-one-three i {
+    font-size: 35px;
+    color: rgb(231, 9, 113);
+}
+
+.ser-icon-one-four i {
+    font-size: 35px;
+    color: rgb(22, 3, 12);
+}
+
+.ser-icon-one-four i {
+    font-size: 35px;
+    color: rgb(82, 4, 4);
+}
+
+.ser-icon-one-five i {
+    font-size: 35px;
+    color: rgb(82, 4, 4);
+}
+
+.text-b {
+    color: blueviolet;
+}
+
+.ser-text h3 {
+    padding: 10px 0px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.service-bottom-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.ser-text-p {
+    width: 70%;
+    margin: auto;
+}
+
+.ser-btm-one {
+    width: 33.33%;
+    text-align: center;
+}
+
+.ser-btm-two {
+    width: 33.33%;
+    text-align: center;
+}
+
+.ser-btm-three {
+    width: 33.33%;
+    text-align: center;
+}
+
+.ser-btm-four {
+    width: 33.33%;
+    text-align: center;
+}
+
+.ser-btm-five {
+    width: 33.33%;
+    text-align: center;
+}
+
+.ser-btm-six {
+    width: 33.33%;
+    text-align: center;
+}
+
+.about-service {
+    background-color: rgba(128, 128, 128, 0.281);
+}
+
+.about-ser-header {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.abt-ser-main {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.abt-ser-main img {
+    width: 150px;
+    height: 50px;
+    padding: 30px 30px 30px 0px;
+}
+
+.abt-ser-fotter {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.abt-ser-fotter p {
+    text-align: center;
+    color: blueviolet;
+}
+
+.contact {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.473);
+    padding: 50px 0px;
+}
+
+.contact-content {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-content p i {
+    padding: 5px;
+}
+
+.contact-content p b {
+    color: blueviolet;
+}
+
+.fotter {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.fotter-top {
+    width: 25%;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.fotter-top p {
+    color: white;
+    font-weight: 100;
+}
+
+.fotter-top p b {
+    color: rgb(255, 208, 0);
+}
+
+.fotter-bottom {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 50px 0px 0px;
+}
+
+.fotter-bottom p b {
+    color: rgb(255, 208, 0);
+}
+
+.fotter-bottom p {
+    color: white;
+}
